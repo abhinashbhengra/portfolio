@@ -179,7 +179,6 @@ h5 {
 
 /* project page */
 .code_heading {
-  /* background-color: #8892b0; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,7 +191,6 @@ h5 {
   margin-bottom: 5rem;
 }
 .projectsPage {
-  /* background-color: blueviolet; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -222,4 +220,32 @@ h5 {
   font-size: 1.2rem;
   color: #64ffda;
   border: 1px solid #64ffda;
+}
+
+/* blog Page  */
+.blogsPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  padding: 4rem;
+  margin-bottom: 5rem;
+}
+
+/* blog post  */
+
+.post_section {
+  color: #8892b0;
+  font-family: "Cormorant Garamond", serif;
+  padding: 4rem;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: x-large;
+  /* background-color: antiquewhite; */
 }
