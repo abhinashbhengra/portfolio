@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
 
 * {
   padding: 0;
@@ -10,6 +12,8 @@ body {
   width: 100%;
   height: 100vh;
 }
+
+/* HOME PAGE */
 nav {
   /* background-color: aquamarine; */
   /* position: ; */
@@ -49,12 +53,14 @@ nav {
 }
 .name {
   color: #ccd6f6;
-  font-size: 2rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.5rem;
   font-weight: bold;
   padding: 0.3rem;
 }
 .developer {
   color: #8892b0;
+  font-family: "Cormorant Garamond", serif;
   font-size: 2rem;
   font-weight: bold;
   padding: 0.3rem;
@@ -67,7 +73,7 @@ nav {
   align-items: center;
   height: 10vh;
   padding: 4rem;
-  margin: 1rem;
+  margin-bottom: 4rem;
 }
 .tech_head {
   color: #64ffda;
@@ -78,7 +84,8 @@ nav {
 }
 .tech_name {
   color: #8892b0;
-  font-size: 1.2rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.4rem;
 }
 .projects {
   /* background-color: blueviolet; */
@@ -88,7 +95,7 @@ nav {
   align-items: center;
   height: 10vh;
   padding: 4rem;
-  margin: 2rem;
+  margin-bottom: 5rem;
 }
 .proj_head {
   color: #64ffda;
@@ -99,8 +106,17 @@ nav {
 }
 .proj_info {
   color: #8892b0;
-  font-size: 1.2rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.4rem;
   margin-bottom: 0.6rem;
+}
+.projBtn {
+  padding: 0.8rem;
+  background-color: #0b192f;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  color: #64ffda;
+  border: 1px solid #64ffda;
 }
 .blogs {
   /* background-color: blueviolet; */
@@ -110,7 +126,7 @@ nav {
   align-items: center;
   height: 10vh;
   padding: 4rem;
-  margin: 1rem;
+  margin-bottom: 4rem;
 }
 .blog_head {
   color: #64ffda;
@@ -121,8 +137,17 @@ nav {
 }
 .blog_info {
   color: #8892b0;
-  font-size: 1.2rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.4rem;
   margin-bottom: 0.6rem;
+}
+.blogBtn {
+  padding: 0.8rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  background-color: #0b192f;
+  color: #64ffda;
+  border: 1px solid #64ffda;
 }
 footer {
   /* background-color: aquamarine; */
