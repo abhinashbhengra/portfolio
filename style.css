@@ -176,3 +176,50 @@ h5 {
 .linkedin {
   margin: 2rem;
 }
+
+/* project page */
+.code_heading {
+  /* background-color: #8892b0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccd6f6;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.projectsPage {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  padding: 4rem;
+  margin-bottom: 5rem;
+}
+.projPage_head {
+  color: #64ffda;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+.projPage_info {
+  color: #8892b0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+.projLinkBtn {
+  width: 150px;
+  padding: 0.8rem;
+  background-color: #0b192f;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.2rem;
+  color: #64ffda;
+  border: 1px solid #64ffda;
+}
