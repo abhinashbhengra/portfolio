@@ -15,8 +15,6 @@ body {
 
 /* HOME PAGE */
 nav {
-  /* background-color: aquamarine; */
-  /* position: ; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,7 +25,6 @@ nav {
   color: #64ffda;
 }
 .menu_items {
-  /* background-color: brown; */
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -38,6 +35,29 @@ nav {
 .menu_items li {
   /* background-color: green; */
   padding: 0.5rem;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+.menuBtn {
+  padding: 0.8rem;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 1rem;
+  background-color: #0b192f;
+  color: #64ffda;
+  /* border: 1px solid #64ffda; */
 }
 .introduction {
   /* background-color: bisque; */
@@ -197,7 +217,7 @@ h5 {
   align-items: center;
   height: 10vh;
   padding: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 9rem;
 }
 .projPage_head {
   color: #64ffda;
@@ -228,9 +248,9 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  /* height: 10vh; */
   padding: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 /* blog post  */
@@ -238,7 +258,8 @@ h5 {
 .post_section {
   color: #8892b0;
   font-family: "Cormorant Garamond", serif;
-  padding: 4rem;
+  padding: 2rem;
+  margin-bottom: 4rem;
 }
 .post {
   display: flex;
@@ -247,5 +268,6 @@ h5 {
   align-items: center;
 
   font-size: x-large;
+  /* padding: 2rem; */
   /* background-color: antiquewhite; */
 }
